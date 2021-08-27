@@ -1,0 +1,88 @@
+main{
+    /* background: rgb(177, 255, 255); */
+    background: url('../../bg-images/survey-bg.jpg');
+    background-size: 100vw 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding:0px 50px;
+    /* padding-top: 10px; */
+}
+h3{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.form-heading{
+    margin-left: 5px;
+    font-size: 2rem;
+    margin-top: 0;
+}
+.form-container{
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    width: 40vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    padding:5px 5px;
+    margin-top:10px;
+}
+article{
+    display: flex;
+    flex-direction: column;
+}
+.personal{
+    display: flex;
+    flex-direction:row;
+    font-size: 1rem;
+}
+.personal input{
+    width: 25vw;
+}
+li{
+    list-style: none;
+    margin:5px 5px;
+}
+.conditions label,.general label{
+    margin-left:6px;
+} 
+.gender{
+    display: flex;
+    flex-direction: column;
+}
+.gender > input{
+    font-size: 0.8rem;
+    padding:2px 2px;
+    width:20vw;
+    margin:10px 0px;
+}
+main > p{
+    font-size: 1.15rem;
+
+}
+main > h1{
+    margin: 10px 0;
+}
+#submit-btn{
+    width: 15vw;
+    background: rgb(160, 252, 252);
+    font-size: 1rem;
+    padding: 5px 0px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-color: transparent;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+}
+#submit-btn:focus{
+    outline:none;
+}
+#submit-btn:hover{
+    background: rgb(70, 255, 255);
+    box-shadow: 1px 1px 4px rgb(66, 66, 66);
+}

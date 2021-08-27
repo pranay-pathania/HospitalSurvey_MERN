@@ -1,0 +1,60 @@
+figcaption{
+    width: 100vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 5px;
+}
+.underline{
+    width:40vw;
+    height:3px;
+    background: grey;
+    margin: 20px 0px;
+}
+.card{
+    box-sizing: border-box;
+    width:95vw;
+    height:50vh;
+    border-radius: 20px;
+    /* border: 2px solid black; */
+    background: white;
+    padding: 0px 0px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px;
+    transition: all 0.3s ease-in;
+}
+.card:hover{
+    box-shadow:3px 3px 20px black;
+}
+.card > img{
+    width:30vw;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.card > .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text > h1{
+    font-size: 2.9rem;
+}
+.text > p{
+    margin: 0px 30px;
+    font-size: 1.2rem;
+}
+.second{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0px 0px;
+    padding-left: 10px;
+}
+.second > img{
+    border-radius: 0;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}

@@ -1,0 +1,19 @@
+footer{
+    background:cornsilk;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0px;
+    padding-bottom: 20px;
+}
+footer > h1{
+    font-size: 4rem;
+}
+a > img{
+    width:80px;
+    margin: 0px 20px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
