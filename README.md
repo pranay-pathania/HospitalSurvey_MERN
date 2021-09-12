@@ -14,3 +14,4 @@ Excuse my CSS, and the fact that the site isn't responsive.
 
 # Note to self
 When sending an email, go to myaccount.google.com/lesssecureapps and toggle.
+Sensitive data has been removed for obvious reasons
